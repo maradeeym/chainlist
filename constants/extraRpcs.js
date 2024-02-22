@@ -3834,6 +3834,11 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.SFTProtocol,
       },
+      {
+        url: "https://filecoin.drpc.org",
+        tracking: "none",
+        trackingDetails: privacyStatement.drpc,
+      },
       "https://api.chain.love/rpc/v1",
     ],
   },
