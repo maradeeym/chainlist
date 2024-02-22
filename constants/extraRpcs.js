@@ -4044,6 +4044,11 @@ export const extraRpcs = {
 	url: "https://taiko-katla.blockpi.network/v1/rpc/public",
 	tracking: "limited",
 	trackingDetails: privacyStatement.blockpi,
+      },
+      {
+	url: "https://taiko-katla.drpc.org",
+	tracking: "none",
+	trackingDetails: privacyStatement.drpc,
       }
     ]
   },
