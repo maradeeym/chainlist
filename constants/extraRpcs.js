@@ -2008,6 +2008,11 @@ export const extraRpcs = {
         url: "https://fuse.liquify.com",
         tracking: "yes",
         trackingDetails: privacyStatement.liquify,
+      },
+      {
+        url: "https://fuse.drpc.org",
+        tracking: "none",
+        trackingDetails: privacyStatement.drpc,
       }
     ],
   },
