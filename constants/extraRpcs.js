@@ -7720,7 +7720,20 @@ export const extraRpcs = {
   },
   295: {
     rpcs: ["https://hedera.linkpool.pro"],
-  }
+  },
+  999: {
+    rpcs: [
+      {
+        url: "https://hyperliquid.drpc.org",
+        tracking: "none",
+        trackingDetails: privacyStatement.drpc,
+      },
+      {
+        url: "wss://hyperliquid.drpc.org",
+        tracking: "none",
+        trackingDetails: privacyStatement.drpc,
+      }
+  ]
 };
 
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
